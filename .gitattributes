@@ -1,0 +1,16 @@
+# Root folder
+.gitattributes merge=copy-merge
+.gitignore merge=copy-merge
+
+settings.gradle merge=copy-merge
+
+# .vscode/
+.vscode/launch.json merge=copy-merge
+.vscode/settings.json merge=copy-merge
+.vscode/tasks.json merge=copy-merge
+
+# gradle/
+gradle/** merge=copy-merge
+
+# app/
+app/build.gradle merge=copy-merge
